@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestFile.ALTC09_HandleMultpilePassengers"/>
+      <class name="TestFile.ALTC13_CoupenCodeAppling"/>
+      <class name="TestFile.ALTC11_ValidatingSearchFillDetails"/>
+      <class name="TestFile.ALTC10_FightInformationBaggageRules"/>
+      <class name="TestFile.ALTC02_LoginCorrectCredentials"/>
+      <class name="TestFile.ALTC06_DifferentClasses"/>
+      <class name="TestFile.ALTC05_SearchRoundTrip"/>
+      <class name="TestFile.ALTC03_LoginInvalidCredentials"/>
+      <class name="TestFile.Practice"/>
+      <class name="TestFile.ALTC14_DomesticRoundTrip"/>
+      <class name="TestFile.ALTC04_SearchOneWayFlight"/>
+      <class name="TestFile.ALTC08_SeatSelection"/>
+      <class name="TestFile.ALTC12_LoginSearchLogout"/>
+      <class name="TestFile.ALTC15_PaymentCardCreditCard"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel Browser Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Testing in Firefox(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="TestFile.AirLine_Paralleltesting">
+        <methods>
+          <include name="AirLineParallelTesting" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestFile.AirLine_Paralleltesting -->
+    </classes>
+  </test> <!-- Testing in Firefox(failed) -->
+</suite> <!-- Failed suite [Parallel Browser Testing] -->

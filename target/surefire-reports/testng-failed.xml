@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="TestFile.ALTC09_HandleMultpilePassengers">
+        <methods>
+          <include name="HandleMultpulePassengers"/>
+          <include name="AQuit"/>
+          <include name="ALaunch"/>
+        </methods>
+      </class> <!-- TestFile.ALTC09_HandleMultpilePassengers -->
+      <class name="TestFile.ALTC11_ValidatingSearchFillDetails">
+        <methods>
+          <include name="AQuit"/>
+          <include name="CustomerDetails"/>
+          <include name="ALaunch"/>
+        </methods>
+      </class> <!-- TestFile.ALTC11_ValidatingSearchFillDetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
